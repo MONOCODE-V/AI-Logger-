@@ -1,6 +1,6 @@
 # AI Log Analysis Report
 
-**Server:** 104.248.245.213  
+**Server:** [redacted]  
 **Date:** February 23, 2026  
 **AI Provider:** Ollama (llama3.2)  
 
@@ -105,7 +105,7 @@
 
 ## Conclusion
 
-The server at **104.248.245.213** is in a **healthy state** with a health score of **85/100**. The primary pattern observed is systemd session churn — sessions being rapidly created and deactivated by root. This is typical behavior for a Linux server running cron jobs and automated tasks, and does not indicate a security issue.
+The server is in a **healthy state** with a health score of **85/100**. The primary pattern observed is systemd session churn — sessions being rapidly created and deactivated by root. This is typical behavior for a Linux server running cron jobs and automated tasks, and does not indicate a security issue.
 
 **Key findings:**
 - Most warnings relate to systemd session lifecycle (start/deactivate patterns)
